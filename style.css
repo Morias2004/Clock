@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: "Sixtyfour", sans-serif;
+}
+
+body {
+  background-color: rgb(51, 49, 49);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#quadrado1 {
+  background-color: rgb(175, 84, 23);
+  width: 850px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 5px 0px inset;
+}
+.clock {
+  width: 800px;
+  height: 300px;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: 0;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+div.clock span {
+  font-size: 60px;
+  color: #4e8a27;
+  margin: 15px 0px 0px 50px;
+}
+
+#infoClima {
+  margin-left: 40px;
+  font-size: 35px;
+  color: #4e8a27;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "sixtyfour", sans-serif;
+}
