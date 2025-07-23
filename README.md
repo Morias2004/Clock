@@ -6,7 +6,8 @@ Projeto simples de relógio digital para exibir a hora atual no navegador.
 ## Funcionalidades
 
 - Exibe a hora atual em formato digital (horas, minutos e segundos)  
-- Atualiza o relógio em tempo real  
+- Atualiza o relógio em tempo real 
+- Mostra a temperatura da cidade colocada em sistema a cada 15 minutos 
 - Interface simples e limpa  
 
 ## Como usar
@@ -24,7 +25,8 @@ git clone https://github.com/Morias2004/Clock.git
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+- API (https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cidade}&lang=pt)
 
 ## Contribuições
 
